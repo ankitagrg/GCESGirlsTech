@@ -4,7 +4,9 @@ import secratary from '../images/members/Secratary.webp';
 import socialmediahandler from '../images/members/SocialMediaHandler.webp';
 import graphicdesigner from '../images/members/GraphicDesigner.webp';
 import clubcoordinatior from '../images/members/ClubCoordinator.webp'
-import mentor1 from '../images/members/mentor1.webp';
+import mentor2 from '../images/members/mentor2.jpeg';
+import mentor3 from '../images/members/mentor3.jpg';
+import mentor from '../images/members/mentor.png';
 const CE4 = new URL(
   "../images/members/CE4.webp",
   import.meta.url
@@ -107,17 +109,36 @@ export const team = [
   // Mentors
   {
     id: 7,
-    name: "Ankita Gurung",
-    role: "Club Mentor",
-    image: mentor1,
+    name: "Er. Pratikshya Shrestha",
+    role: "Club Advisor",
+    image: mentor2,
     bgColor: "bg-green-200",
     bio: "Guiding and supporting GirlsTech initiatives",
     category: "mentor"
   },
+  {
+    id: 8,
+    name: "Er. Prativa Nyaupane",
+    role: "Club Advisor",
+    image: mentor3,
+    bgColor: "bg-green-200",
+    bio: "Guiding and supporting GirlsTech initiatives",
+    category: "mentor"
+  },
+  {
+    id: 9,
+    name: "Ankita Gurung",
+    role: "Club Advisor",
+    image: mentor,
+    bgColor: "bg-green-200",
+    bio: "Guiding and supporting GirlsTech initiatives",
+    category: "mentor",
+    imageClassName: "scale-110"
+  },
 
   // Executive Members (add as many as needed)
   {
-    id: 8,
+    id: 10,
     name: "Kanchan Ghatraj",
     role: "Executive Member",
     image: CE4,
@@ -125,8 +146,8 @@ export const team = [
     bio: "Helping organize club events",
     category: "executive"
   },
-    {
-    id: 9,
+  {
+    id: 11,
     name: "Janvi Pratihast",
     role: "Executive Member",
     image: CE3,
@@ -134,8 +155,8 @@ export const team = [
     bio: "Helping organize club events",
     category: "executive"
   },
-    {
-    id: 10,
+  {
+    id: 12,
     name: "Aishwarya Dahal",
     role: "Executive Member",
     image: SE3,
@@ -143,8 +164,8 @@ export const team = [
     bio: "Helping organize club events",
     category: "executive"
   },
-    {
-    id: 11,
+  {
+    id: 13,
     name: "Sudina Bhandari",
     role: "Executive Member",
     image: SE2,
@@ -152,8 +173,8 @@ export const team = [
     bio: "Helping organize club events",
     category: "executive"
   },
-    {
-    id: 12,
+  {
+    id: 14,
     name: "Kritika Chapagain",
     role: "Executive Member",
     image: CE2,
@@ -162,7 +183,7 @@ export const team = [
     category: "executive"
   },
   {
-    id: 13,
+    id: 15,
     name: "Santoshi Dhakal",
     role: "Executive Member",
     image: CE1,
@@ -171,7 +192,7 @@ export const team = [
     category: "executive"
   },
   {
-    id: 14,
+    id: 16,
     name: "Samikshya Subedi",
     role: "Executive Member",
     image: CE11,
@@ -180,7 +201,7 @@ export const team = [
     category: "executive"
   },
   {
-    id: 15,
+    id: 17,
     name: "Sitishma KC",
     role: "Executive Member",
     image: SE1,
