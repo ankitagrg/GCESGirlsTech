@@ -74,7 +74,7 @@ const Team = () => {
 
             <TeamSection title="Board" members={boardMembers} />
 
-            <TeamSection title="Mentors" members={mentors} />
+            <TeamSection title="Advisor" members={mentors} />
 
             <TeamSection title="Executive Members" members={executiveMembers} />
           </div>
