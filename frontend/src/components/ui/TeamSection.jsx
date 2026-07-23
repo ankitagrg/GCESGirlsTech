@@ -1,7 +1,7 @@
 import TeamMemberCard from "./TeamMemberCard";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
- const TeamSection = ({ title, members }) => {
+const TeamSection = ({ title, members }) => {
   const containerClass = members.length === 3
     ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16 max-w-[1100px] mx-auto mb-16 justify-items-center"
     : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6 max-w-[1400px] mb-16 justify-around";
@@ -25,7 +25,6 @@ import {motion} from 'framer-motion'
             role={member.role}
             image={member.image}
             bgColor={member.bgColor}
-            delay={0.1 * index}
             imageClassName={member.imageClassName}
           />
         ))}
