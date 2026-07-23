@@ -106,7 +106,7 @@ export const team = [
     category: "board"
   },
 
-  // Mentors
+  // Advisor
   {
     id: 7,
     name: "Er. Pratikshya Shrestha",
