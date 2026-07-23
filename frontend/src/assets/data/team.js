@@ -134,6 +134,7 @@ export const team = [
     bio: "Guiding and supporting GirlsTech initiatives",
     category: "mentor",
     imageClassName: "scale-110"
+    
   },
 
   // Executive Members (add as many as needed)
